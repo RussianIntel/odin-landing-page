@@ -151,7 +151,6 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center; 
-    gap: 30px;
     background-color: #3882F6;
     width: 90%;
     border-radius: 10px;
@@ -173,7 +172,7 @@ h3 {
     font-size: 22px;
     font-weight: 900;
     color: #F9FAF8;
-    padding-left: 15%;
+    
 }
 
 .p5 {
@@ -181,7 +180,22 @@ h3 {
     font-size: 1rem;
     font-weight: normal;
     color: #F9FAF8;
-    padding-left: 15%;
-    flex-wrap: nowrap;
-    flex-shrink: 0;
+    flex-basis: content;
+}
+.box-right {
+    display: flex;
+    justify-content: left;
+}
+.box-left {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    text-align: center;
+    padding: 2rem;
+    font-weight: 400;
 }
