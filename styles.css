@@ -3,12 +3,6 @@
 body {
     margin: 0;
     font-family: Roboto, sans-serif; 
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: space-between;
-    
-    
 }
 
 a {
@@ -20,8 +14,7 @@ a {
   li {
     list-style: none;
   }
-
-  button {
+.left button {
       background-color: #3882F6;
       padding: 10px;
       border: none;
@@ -32,8 +25,6 @@ a {
   }
 
 
-
-
   .header {
       background-color: #1F2937;
       display: flex;
@@ -41,12 +32,14 @@ a {
       align-items: center; 
       padding-left: 15%;
     padding-right: 15%; 
+    
   }
 
   .logo {
       font-size: 24px;
       color: #F9FAF8;
-      font-weight: bolder;
+      font-weight:900;
+      
   }
   .links {
       display: flex;
@@ -60,27 +53,135 @@ a {
       padding-left: 15%;
       padding-right: 15%; 
       align-items: center;
-      padding-bottom: 6%;
+      padding-bottom: 3%;
+      padding-top: 48px;
   }
   .left {
       display: flex;
       flex-direction: column;
-      gap: 10px;
-      max-width: 500px;
-      padding: 30px;
+      gap: 20px;
+      
   }
   .p1 {
       color: #F9FAF8;
       font-size: 48px;
       font-weight: bolder;
+      width: 50%;
   }
   .p2 {
       color: #E5E7EB;
       font-size: 18px;
+      width: 50%;
   }
 
-  img {
+  .top img {
       border-radius: 10px;
-      width: auto;
-      height: 220px;
+      max-width: 30%;
+      max-height: 30%;
   }
+
+  .main {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%; 
+    padding-bottom: 3%;
+  }
+
+  h2 {
+    align-content: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+ }
+ .square {
+     border: 5px solid #3882F6;
+     width: 10rem;
+     height: 10rem;
+     background-color: white;
+     border-radius: 10px;
+ }
+
+
+ p {
+     color: #1F2937;
+     max-width: 10rem;
+     text-align: center;
+ }
+
+ .testimony {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-content: center;
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-right: 25%; 
+    padding-bottom: 3%;
+ }
+
+ .testimony .p4 {
+     align-self: flex-end;
+ }
+ .p4 {
+    color: #1F2937;
+    font-size: 18px;
+    font-weight: 900;
+ }
+ .p3 {
+     color: #1F2937;
+     font-size: 36px;
+     font-style: italic;
+ }
+
+ .call {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 3%;
+    padding-left: 15%;
+    padding-right: 15%; 
+    padding-bottom: 3%;
+ }
+
+ .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    gap: 30px;
+    background-color: #3882F6;
+    width: 90%;
+    border-radius: 10px;
+    padding: 2rem;
+ }
+
+ .box-right button {
+    background-color: #3882F6;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    width: 150px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    border: 3px solid #F9FAF8;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding-left: 15%;
+}
+
+.p5 {
+    display: flex;
+    font-size: 1rem;
+    font-weight: normal;
+    color: #F9FAF8;
+    padding-left: 15%;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
